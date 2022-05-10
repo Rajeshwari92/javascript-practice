@@ -383,7 +383,7 @@ switch (day) {
 */
 
 /* functions
-
+//// Function declarations can be called, before the codes is defined.
 // program to add two numbers using a function
 // declaring a function
 function add(a, b) {
@@ -394,10 +394,11 @@ function add(a, b) {
 add(3,4);
 add(2,9);
 
+//
 */
 /*
 //The return statement can be used to return the value to a function call.
-
+//// Function expressions cannot be called before the codes is defined.
 let x = function (num) { 
     return num * num ;
  };
@@ -413,11 +414,15 @@ console.log(y);
 -Global Scope:A variable declared at the top of a program or outside of a function is considered a global scope variable.
 -Local Scope: it can only be accessed within a function.
 
+
 */
 
 /*
 //Hoisting in JavaScript is a behavior in which a function or a variable can be used before declaration.
+
+
 // program to print the text
+
 greet();
 
 function greet() {
@@ -430,6 +435,8 @@ greet1();
 let greet1 = function() {
     console.log('Hi, there.');//error
 }
+
+
 */
 
 /* objects: non-primitive data-type
